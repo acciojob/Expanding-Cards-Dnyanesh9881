@@ -1,21 +1,17 @@
 /*  your css code here. If applicable */
-.container{
+.panel{
+	border-radius:20px;
 	overflow:hidden;
 	position:relative;
-	border-radius:20px;
-   height:300px;
-	
-}
-div{
+/* 	width:fit-content; */
 	display:inline-block;
 }
 img{
 	height:300px; 
 }
 .panel{
-	width:30px;
-	border-radius:20px;
-	overflow:hidden
+ 	width:40px; 
+	height:300px; 
 }
 .img-text{
 	position:absolute;
