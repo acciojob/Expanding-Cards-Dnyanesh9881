@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+.panel{
+	border-radius:20px;
+	overflow:hidden;
+	position:relative;
+/* 	width:fit-content; */
+	display:inline-block;
+}
+img{
+	height:300px; 
+}
+.panel{
+ 	width:40px; 
+	height:300px; 
+}
+.img-text{
+	position:absolute;
+	bottom:20px;
+	left:10px;
+	color:white;
+}
+.active{
+	width:450px
+}
+
+
