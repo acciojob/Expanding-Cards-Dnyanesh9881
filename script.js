@@ -6,9 +6,7 @@ let panels=document.querySelectorAll(".panel");
 // }
 
 function onClickToggle(e) {
-let current=e.id;
-	
-	console.log(current);
+
 	for(let i=0;i<panels.length;i++){
 	
 		panels[i].classList.remove("active")
