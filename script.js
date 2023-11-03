@@ -8,14 +8,16 @@ for(let i=0;i<panels.length;i++){
 function onClickToggle(e) {
 let current=e.target;
 	console.log(current);
-	for(let i=0;i<panels.length;i++){
-	if(panels[i].classList.contains("active")){
-		panels[i].classList.remove("active")
-	}
-		if(current.classList.contains("active"))
+	// for(let i=0;i<panels.length;i++){
+	// if(panels[i].classList.contains("active")){
+	// 	panels[i].classList.remove("active")
+	// }
+		if(current.classList.contains("active")){
 			return;
-		else
+		}
+		else{
 			current.classList.add("active")
+		}
 			
-}
+			
 }
