@@ -9,8 +9,8 @@ function onClickToggle(e) {
 let current=e.target;
 	
 	for(let i=0;i<panels.length;i++){
-	if(panels.[i].classList.containe(".active")){
-		panels.[i].classList.toggle(".active")
+	if(panels[i].classList.containe(".active")){
+		panels[i].classList.toggle(".active")
 	}
 		current.classList.toggle(".active");
 }
