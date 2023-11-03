@@ -7,11 +7,11 @@ for(let i=0;i<panels.length;i++){
 
 function onClickToggle(e) {
 let current=e.target;
-	
+	console.log(current);
 	for(let i=0;i<panels.length;i++){
-	if(panels[i].classList.containe(".active")){
-		panels[i].classList.toggle(".active")
+	if(panels[i].classList.contains("active")){
+		panels[i].classList.toggle("active")
 	}
-		current.classList.toggle(".active");
+		current.classList.toggle("active");
 }
 }
