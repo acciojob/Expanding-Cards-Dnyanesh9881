@@ -1,5 +1,5 @@
 //your JS code here. If required.
-let panels=document.querySelectorAll(".panel");
+let panels=document.querySelectorAll(".container");
 
 // for(let i=0;i<panels.length;i++){
 // 	panels[i].addEventListener("click", onClickToggle)
